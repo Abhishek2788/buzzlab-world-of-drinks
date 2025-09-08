@@ -214,16 +214,16 @@ const Hero = () => {
           alt="right-leaf"
           className="right-leaf"
         />
-        <div className="body">
+        <div className="body md:mt-8">
           <div className="content">
             <div className="space-y-5 hidden md:block">
-              <p>Cool. Crisp. Classic.</p>
-              <p className="subtitle">
+              <p className="md:text-center">Cool. Crisp. Classic.</p>
+              <p className="subtitle md:text-center">
                 Age and glasses of <br/> wine should never be counted
               </p>
             </div>
             <div className="view-cocktails">
-              <p className="subtitle">
+              <p className="subtitle max-sm:text-center">
                 Discover a world of exquisite alcoholic beverages, from classic spirits to innovative cocktails. Explore rich histories, diverse flavors, and expert guides to enhance every social occasion and celebration.
               </p>
               <a href="#cocktails">View Buzzlab</a>

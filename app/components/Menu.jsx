@@ -59,7 +59,7 @@ const Menu = () => {
                 isActive
                   ? "text-white border-white"
                   : "text-white/50 border-white/50"
-              }`}
+              } hover:text-amber-200`}
               onClick={() => goToSlide(index)}
             >
               {cocktail.name}
@@ -69,7 +69,7 @@ const Menu = () => {
       </nav>
 
       <div className="content">
-        <div className="arrows">
+        <div className="arrows pr-4 pl-4">
           <button
             className="text-left"
             onClick={() => goToSlide(currentIndex - 1)}
@@ -98,7 +98,7 @@ const Menu = () => {
           <img src={currentCocktail.image} className="object-contain rounded-2xl" />
         </div>
 
-        <div className="recipe">
+        <div className="recipe pl-2 pr-2">
           <div ref={contentRef} className="info">
             <p>Recipe for:</p>
             <p id="title">{currentCocktail.name}</p>

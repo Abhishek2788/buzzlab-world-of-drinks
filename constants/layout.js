@@ -37,7 +37,7 @@ const cocktailLists = [
 	price: "$20",
  },
  {
-	name: "Corona (Beer)",
+	name: "Corona Beer",
 	country: "IE",
 	detail: "600 ml",
 	price: "$29",
@@ -123,17 +123,17 @@ const socials = [
  {
 	name: "Instagram",
 	icon: "/images/insta.png",
-	url: "#",
+	url: "https://www.instagram.com/abhishekjha2763/",
  },
  {
 	name: "X (Twitter)",
 	icon: "/images/x.png",
-	url: "#",
+	url: "https://x.com/abhishekjha2763",
  },
  {
 	name: "Facebook",
 	icon: "/images/fb.png",
-	url: "#",
+	url: "https://www.facebook.com/profile.php?id=100083423020019",
  },
 ];
 

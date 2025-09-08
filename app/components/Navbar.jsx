@@ -33,7 +33,7 @@ const Navbar = () => {
         <ul>
           {navLinks.map((link) => (
             <li key={link.id}>
-              <a href={`#${link.id}`}>{link.title}</a> 
+              <a href={`#${link.id}`} className='hover:text-amber-200'>{link.title}</a> 
             </li>
           ))}
         </ul>

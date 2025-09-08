@@ -51,7 +51,6 @@ export default function Contact() {
           trigger: el,
           start: "top center",
           toggleActions: "play none none reverse",
-          // markers: true, // enable while debugging
         },
         defaults: { ease: "power1.inOut" },
       });
@@ -135,7 +134,7 @@ export default function Contact() {
                 rel="noopener noreferrer"
                 aria-label={social.name}
               >
-                <img src={social.icon} alt={social.name} />
+                <img src={social.icon} alt={social.name} className="transition-all ease-in duration-300 hover:scale-150" />
               </a>
             ))}
           </div>

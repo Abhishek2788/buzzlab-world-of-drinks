@@ -66,11 +66,11 @@ export default function About() {
   }, []);
 
   return (
-    <div id="about" ref={aboutRef} className="pt-[200px]">
+    <div id="about" ref={aboutRef} className="pt-[200px] pl-4 pr-4">
       <div className="mb-16 md:px-0 px-5">
         <div className="content">
           <div className="md:col-span-8">
-            <p className="badge">Best Drinks</p>
+            <p className="badge hover:bg-amber-200 hover:cursor-pointer">Best Drinks</p>
             <h2 ref={titleRef}>
               Beer is proof that God loves us and wants us to be happy --- Benjamin Franklin
             </h2>
